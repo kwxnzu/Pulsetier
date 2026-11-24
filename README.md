@@ -134,26 +134,6 @@ Full API documentation available at https://pulsetier.com/docs/api
 - Expanding B2B developer ecosystem
 - Optimizing conversion funnel
 
-## Roadmap
-
-### Q1 2025
-- Complete tool polish and quality assurance
-- Launch API integration marketplace
-- Implement team collaboration features
-- Add Zapier and Make.com integrations
-
-### Q2 2025
-- Mobile app development (iOS/Android)
-- Advanced batch processing workflows
-- Custom branding for Pro+ users
-- Webhook support for automation
-
-### Q3 2025
-- Enterprise tier with SSO and compliance features
-- Advanced analytics and reporting
-- API rate limit customization
-- Priority support SLA
-
 ## Technology Stack
 
 **Frontend:**
