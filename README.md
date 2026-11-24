@@ -246,10 +246,3 @@ We appreciate the open-source community and the developers behind the frameworks
 
 ---
 
-<div align="center">
-
-**PulseTier — Productivity Without Compromise.**
-
-[Website](https://pulsetier.com) · [Documentation](https://pulsetier.com/docs/api) · [Contact](mailto:support@pulsetier.com)
-
-</div>
