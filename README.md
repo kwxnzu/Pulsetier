@@ -1,76 +1,243 @@
-<div align="center">
-
-<br />
-
 # PulseTier
 
-### Professional tools that run entirely in your browser
-
-No uploads. No tracking. Total privacy.
-
-<br />
-
-[**Website**](https://pulsetier.com) &nbsp;·&nbsp; [**Privacy**](https://pulsetier.com/privacy) &nbsp;·&nbsp; [**Contact**](mailto:support@pulsetier.com)
-
-<br />
-
-![Tools](https://img.shields.io/badge/tools-45-111827?style=flat-square)
-![Processing](https://img.shields.io/badge/processing-100%25%20client--side-111827?style=flat-square)
-![Privacy](https://img.shields.io/badge/data%20collected-none-111827?style=flat-square)
-![License](https://img.shields.io/badge/license-proprietary-111827?style=flat-square)
-
-</div>
-
-<br />
-
----
+Professional grade productivity tools that process files entirely in your browser. Zero data collection. Maximum privacy.
 
 ## Overview
 
-PulseTier is a suite of 45 browser-based utilities for developers, legal professionals, finance teams, and creators who work with sensitive files.
+PulseTier is a suite of browser based utilities designed for developers, legal professionals, finance teams, and content creators who need to process sensitive files without compromising privacy.
 
-Everything runs client-side using WebAssembly and native browser APIs, so your files never leave your device.
+All processing happens client-side using WebAssembly and native browser APIs. Your files never leave your device.
 
-<br />
+## Core Philosophy
 
-## Principles
+- Privacy First: No server uploads, no data collection, no tracking
+- Client-Side Processing: All operations run in your browser using WASM
+- Professional Grade: Tools built for real-world business use cases
+- Zero Trust Architecture: We cannot access your files because we never receive them
 
-| | |
-|---|---|
-| **Private by design** | No server uploads, no data collection, no tracking. |
-| **Client-side only** | Every operation runs in your browser sandbox. |
-| **Zero trust** | We can't access your files because we never receive them. |
+## Tool Categories
 
-<br />
+### Developer Tools
+- JSON Formatter and Validator
+- JSON to TypeScript Converter
+- Regex Tester and Debugger
+- Base64 Encoder/Decoder
+- Code Minifier (CSS/JS/HTML)
+- SVG Path Optimizer
+- Cron Expression Generator
+- API Tester
+- Git Command Builder
+- CSV to JSON Converter
+- Timezone Converter
+
+### PDF Tools
+- PDF Merge and Split
+- PDF Compression
+- PDF/A Archival Converter
+- Bates Stamping
+- Confidential Watermarker
+- Permission Locker
+- Bank Statement Parser
+- Invoice Generator (CSV to PDF)
+- Expense Report Merger
+
+### Legal and Compliance
+- Document Encryption (AES-256)
+- Metadata Scrubber (EXIF/GPS removal)
+- Contract Comparator (text diff)
+- Evidence Photo Enhancement
+- Privacy Scrubber
+
+### Finance and Operations
+- Bulk Certificate Generator
+- QR Code Batcher
+- Barcode Label Generator
+- Payroll Calculator
+- PO to Invoice Mapper
+- AI Resume Screener
+
+### Image Tools
+- Image Format Converter
+- Image Compressor
+- SVG to PNG Converter
+- Batch Thumbnail Editor
+- QR Code Generator
+
+### Video Tools
+- Video Compressor
+- Video Trimmer
+- Social Media Video Resizer
+- Subtitle Hardcoder
+- GIF to Video Converter
+
+### Audio Tools
+- Audio Transcription (with speaker detection)
+
+### Text Tools
+- Word and Character Counter
+- Secure Password Generator
+
+## Technical Architecture
+
+### Core Technologies
+- React with TypeScript
+- WebAssembly for performance-critical operations
+- Client-side encryption using Web Crypto API
+- Native browser APIs (Canvas, File System Access, etc.)
+- Cloudflare for CDN and edge computing
+
+### Security Features
+- AES-256 encryption for sensitive documents
+- Zero-knowledge architecture
+- No server-side file storage
+- All processing in browser sandbox
+- HTTPS enforcement
+- Content Security Policy headers
+
+### Performance
+- WASM compilation for CPU-intensive tasks
+- Lazy loading for tool-specific code
+- Progressive Web App capabilities
+- Optimized asset delivery via CDN
+- Client-side caching strategies
+
+## API Integration
+
+Developers can integrate PulseTier tools into their applications via REST API.
+
+### Authentication
+API key-based authentication with rate limiting and usage tracking.
+
+### Endpoints
+Full API documentation available at https://pulsetier.com/docs/api
+
+### Use Cases
+- Automated document processing pipelines
+- Integration with existing business software
+- Batch processing for enterprise workflows
+- White-label solutions
+
+## Current Status
+
+**Launch Date:** January 2025
+
+**Metrics (Week 1):**
+- 70 unique visitors
+- 1,020 page views
+- 180% week-over-week growth
+- International reach: US, Canada, Switzerland, UK, Romania
+- 100% organic traffic (SEO-driven)
+
+**Current Focus:**
+- Polishing 15 tools requiring upgrades
+- Building API integration platform
+- Expanding B2B developer ecosystem
+- Optimizing conversion funnel
+
+## Roadmap
+
+### Q1 2025
+- Complete tool polish and quality assurance
+- Launch API integration marketplace
+- Implement team collaboration features
+- Add Zapier and Make.com integrations
+
+### Q2 2025
+- Mobile app development (iOS/Android)
+- Advanced batch processing workflows
+- Custom branding for Pro+ users
+- Webhook support for automation
+
+### Q3 2025
+- Enterprise tier with SSO and compliance features
+- Advanced analytics and reporting
+- API rate limit customization
+- Priority support SLA
+
+## Technology Stack
+
+**Frontend:**
+- React 18
+- TypeScript
+- Tailwind CSS
+- Shadcn UI components
+- Lucide and Tabler icons
+
+**Processing:**
+- WebAssembly modules
+- Web Workers for parallel processing
+- Canvas API for image manipulation
+- Web Crypto API for encryption
+
+**Infrastructure:**
+- Cloudflare Pages for hosting
+- Cloudflare Workers for edge computing
+- Cloudflare Analytics
+- Domain: pulsetier.com
+
+**Development:**
+- Git for version control
+- ESLint and Prettier for code quality
+- Vite for build tooling
+- Vercel for preview deployments
+
+## Contributing
+
+PulseTier is currently a closed-source commercial project. However, we welcome feedback, bug reports, and feature requests.
+
+### Reporting Issues
+Please report bugs or security vulnerabilities to: support@pulsetier.com
+
+### Feature Requests
+Submit feature requests through our feedback portal or contact us directly.
+
+## Privacy Policy
+
+We take privacy seriously:
+
+- No user data collection beyond essential analytics
+- No file uploads to servers
+- No third-party tracking scripts
+- No sale of user data
+- GDPR and CCPA compliant
+- Full privacy policy at https://pulsetier.com/privacy
 
 ## Security
 
-- **AES-256** encryption via the Web Crypto API
-- **Zero-knowledge** architecture with no server-side file storage
-- **Content Security Policy** and HTTPS enforcement
-- **Subresource Integrity** on external scripts
+### Responsible Disclosure
+If you discover a security vulnerability, please email: security@pulsetier.com
 
-To report a vulnerability, email [security@pulsetier.com](mailto:security@pulsetier.com).
+We commit to:
+- Acknowledging receipt within 24 hours
+- Providing status updates every 48 hours
+- Crediting researchers (with permission)
+- Not pursuing legal action against good-faith researchers
 
-<br />
+### Security Measures
+- Client-side encryption for sensitive data
+- Regular security audits
+- Dependency vulnerability scanning
+- Content Security Policy implementation
+- Subresource Integrity for external scripts
 
-## Built With
+## License
 
-![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6)
-![Tailwind](https://img.shields.io/badge/Tailwind-111827?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
-![Vite](https://img.shields.io/badge/Vite-111827?style=flat-square&logo=vite&logoColor=646CFF)
-![WebAssembly](https://img.shields.io/badge/WebAssembly-111827?style=flat-square&logo=webassembly&logoColor=654FF0)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-111827?style=flat-square&logo=cloudflare&logoColor=F38020)
+Copyright 2025 PulseTier. All rights reserved.
 
-<br />
+This is proprietary software. Unauthorized copying, modification, distribution, or use is strictly prohibited.
 
----
+## Contact
 
-<div align="center">
+**Website:** https://pulsetier.com
 
-<sub>Copyright © 2025 PulseTier. All rights reserved. Proprietary software.</sub>
-<br />
-<sub>Nairobi, Kenya</sub>
+**Email:** support@pulsetier.com
 
-</div>
+**LinkedIn:** pulsetier
+
+**Location:** Nairobi, Kenya
+
+## Acknowledgments
+
+Built with modern web technologies and a commitment to user privacy. Special thanks to the open-source community for the tools and libraries that make PulseTier possible.
+
+
