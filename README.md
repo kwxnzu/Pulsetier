@@ -1,53 +1,51 @@
 # PulseTier
 
-Professional grade productivity tools that process files entirely in your browser. Zero data collection. Maximum privacy.
+Professional-grade tools that process your files entirely in the browser. No uploads. No tracking. Total privacy.
+
+**Live:** [pulsetier.com](https://pulsetier.com)
+
+---
 
 ## Overview
 
-PulseTier is a suite of 45 browser-based utilities designed for developers, legal professionals, finance teams, and content creators who need to process sensitive files without compromising privacy.
+PulseTier is a suite of 45 browser-based utilities for developers, legal professionals, finance teams, and creators who handle sensitive files. Everything runs client-side with WebAssembly and native browser APIs, so your files never leave your device.
 
-All processing happens client-side using WebAssembly and native browser APIs. Your files never leave your device.
+## Principles
 
-**Live Platform:** https://pulsetier.com
+- **Private by design:** No server uploads, no data collection, no tracking
+- **Client-side processing:** Every operation runs in your browser
+- **Built for real work:** Tools made for professional and business use
+- **Zero trust:** We can't access your files because we never receive them
 
-## Core Philosophy
+## Tools
 
-- Privacy First: No server uploads, no data collection, no tracking
-- Client-Side Processing: All operations run in your browser using WASM
-- Professional Grade: Tools built for real-world business use cases
-- Zero Trust Architecture: We cannot access your files because we never receive them
-
-## Tool Categories
-
-### Developer Tools
+### Developer
 - JSON Formatter and Validator
-- JSON to TypeScript Converter
-- Regex Tester and Debugger
+- JSON to TypeScript
+- Regex Tester
 - Base64 Encoder/Decoder
-- Code Minifier (CSS/JS/HTML)
+- Code Minifier
 - SVG Path Optimizer
-- Cron Expression Generator
+- Cron Generator
 - API Tester
 - Git Command Builder
-- CSV to JSON Converter
+- CSV to JSON
 - Timezone Converter
 
-### PDF Tools
-- PDF Merge and Split
-- PDF Compression
-- PDF/A Archival Converter
+### PDF
+- Merge and Split
+- Compression
+- PDF/A Converter
 - Bates Stamping
 - Confidential Watermarker
 - Permission Locker
 - Bank Statement Parser
-- Invoice Generator (CSV to PDF)
+- Invoice Generator
 - Expense Report Merger
 
 ### Legal and Compliance
-- Document Encryption (AES-256)
-- Metadata Scrubber (EXIF/GPS removal)
-- Contract Comparator (text diff)
-- Evidence Photo Enhancement
+- Document Encryption
+- Metadata Scrubber
 - Privacy Scrubber
 
 ### Finance and Operations
@@ -56,233 +54,74 @@ All processing happens client-side using WebAssembly and native browser APIs. Yo
 - Barcode Label Generator
 - Payroll Calculator
 - PO to Invoice Mapper
-- AI Resume Screener
 
-### Image Tools
-- Image Format Converter
-- Image Compressor
-- SVG to PNG Converter
+### Image
+- Format Converter
+- Compressor
+- SVG to PNG
 - Batch Thumbnail Editor
 - QR Code Generator
 
-### Video Tools
-- Video Compressor
-- Video Trimmer
-- Social Media Video Resizer
+### Video
+- Compressor
+- Trimmer
+- Social Media Resizer
 - Subtitle Hardcoder
-- GIF to Video Converter
+- GIF to Video
 
-### Audio Tools
-- Audio Transcription (with speaker detection)
+### Audio
+- Transcription with speaker detection
 
-### Text Tools
+### Text
 - Word and Character Counter
 - Secure Password Generator
 
-## Technical Architecture
+## Pricing
 
-### Core Technologies
-- React with TypeScript
-- WebAssembly for performance-critical operations
-- Client-side encryption using Web Crypto API
-- Native browser APIs (Canvas, File System Access, etc.)
-- Cloudflare for CDN and edge computing
+| Plan | Price | Includes |
+|------|-------|----------|
+| **Free** | $0 | Single-file processing, all browser tools, 15 API credits |
+| **Pulse Pro** | $9.99/mo or $99/yr | Unlimited batch processing, all 45 tools, print-ready output, saved presets, no watermarks |
+| **Pulse Pro+** | $29.99/mo or $299/yr | Everything in Pro, plus 3 team seats, shared workspace and presets, audit logs, role-based access, priority API access, dedicated support |
 
-### Security Features
-- AES-256 encryption for sensitive documents
-- Zero-knowledge architecture
-- No server-side file storage
-- All processing in browser sandbox
-- HTTPS enforcement
-- Content Security Policy headers
+## API
 
-### Performance
-- WASM compilation for CPU-intensive tasks
-- Lazy loading for tool-specific code
-- Progressive Web App capabilities
-- Optimized asset delivery via CDN
-- Client-side caching strategies
+Integrate PulseTier into your own applications through the REST API, with key-based authentication and usage tracking. Ideal for document pipelines, batch workflows, and white-label solutions.
 
-## Business Model
+| Pack | Credits | Price |
+|------|---------|-------|
+| Starter | 50 | $5.00 |
+| Scale | 300 | $25.00 |
+| Infinite | 1,000 | $60.00 |
 
-### Consumer Pricing (B2C)
-
-**Free Tier**
-- Single file processing
-- All browser-based tools
-- 15 API credits for testing
-- Standard quality output
-- Local processing
-- Basic support
-
-**Pulse Pro - $9.99/month or $99/year**
-- Unlimited batch processing
-- All 45 tools unlocked
-- Print-ready and court-safe output
-- Saved presets and configurations
-- Unlimited work history
-- Priority processing queue
-- No watermarks
-- Client-side workspace
-
-**Pulse Pro+ - $29.99/month or $299/year**
-- Everything in Pulse Pro
-- 3 team members included
-- Shared team workspace
-- Shared presets and templates
-- Usage analytics and audit logs
-- Role-based access control
-- Priority API access
-- Invoicing and PO support
-- Dedicated support
-
-### Developer Pricing (B2B)
-
-API credit packs for integration:
-
-- Starter: 50 credits for $5.00 ($0.10/credit)
-- Scale: 300 credits for $25.00 ($0.083/credit)
-- Infinite: 1000 credits for $60.00 ($0.06/credit)
-
-## API Integration
-
-Developers can integrate PulseTier tools into their applications via REST API.
-
-### Authentication
-API key-based authentication with rate limiting and usage tracking.
-
-### Endpoints
-Full API documentation available at https://pulsetier.com/docs/api
-
-### Use Cases
-- Automated document processing pipelines
-- Integration with existing business software
-- Batch processing for enterprise workflows
-- White-label solutions
-
-## Current Status
-
-**Launch Date:** January 2025
-
-**Metrics (Week 1):**
-- 70 unique visitors
-- 1,020 page views
-- 180% week-over-week growth
-- International reach: US, Canada, Switzerland, UK, Romania
-- 100% organic traffic (SEO-driven)
-
-**Current Focus:**
-- Polishing 15 tools requiring upgrades
-- Building API integration platform
-- Expanding B2B developer ecosystem
-- Optimizing conversion funnel
-
-## Roadmap
-
-### Q1 2025
-- Complete tool polish and quality assurance
-- Launch API integration marketplace
-- Implement team collaboration features
-- Add Zapier and Make.com integrations
-
-### Q2 2025
-- Mobile app development (iOS/Android)
-- Advanced batch processing workflows
-- Custom branding for Pro+ users
-- Webhook support for automation
-
-### Q3 2025
-- Enterprise tier with SSO and compliance features
-- Advanced analytics and reporting
-- API rate limit customization
-- Priority support SLA
-
-## Technology Stack
-
-**Frontend:**
-- React 18
-- TypeScript
-- Tailwind CSS
-- Shadcn UI components
-- Lucide and Tabler icons
-
-**Processing:**
-- WebAssembly modules
-- Web Workers for parallel processing
-- Canvas API for image manipulation
-- Web Crypto API for encryption
-
-**Infrastructure:**
-- Cloudflare Pages for hosting
-- Cloudflare Workers for edge computing
-- Cloudflare Analytics
-- Domain: pulsetier.com
-
-**Development:**
-- Git for version control
-- ESLint and Prettier for code quality
-- Vite for build tooling
-- Vercel for preview deployments
-
-## Contributing
-
-PulseTier is currently a closed-source commercial project. However, we welcome feedback, bug reports, and feature requests.
-
-### Reporting Issues
-Please report bugs or security vulnerabilities to: support@pulsetier.com
-
-### Feature Requests
-Submit feature requests through our feedback portal or contact us directly.
-
-## Privacy Policy
-
-We take privacy seriously:
-
-- No user data collection beyond essential analytics
-- No file uploads to servers
-- No third-party tracking scripts
-- No sale of user data
-- GDPR and CCPA compliant
-- Full privacy policy at https://pulsetier.com/privacy
+**Documentation:** [pulsetier.com/docs/api](https://pulsetier.com/docs/api)
 
 ## Security
 
-### Responsible Disclosure
-If you discover a security vulnerability, please email: security@pulsetier.com
-
-We commit to:
-- Acknowledging receipt within 24 hours
-- Providing status updates every 48 hours
-- Crediting researchers (with permission)
-- Not pursuing legal action against good-faith researchers
-
-### Security Measures
-- Client-side encryption for sensitive data
-- Regular security audits
-- Dependency vulnerability scanning
-- Content Security Policy implementation
+- AES-256 encryption via the Web Crypto API
+- Zero-knowledge architecture with no server-side file storage
+- Browser sandbox processing
+- HTTPS enforcement and Content Security Policy
 - Subresource Integrity for external scripts
+
+**Responsible disclosure:** Report vulnerabilities to [security@pulsetier.com](mailto:security@pulsetier.com). We acknowledge reports within 24 hours and credit researchers with permission.
+
+## Tech Stack
+
+React 18 · TypeScript · Tailwind CSS · shadcn/ui · Vite · WebAssembly · Web Workers · Cloudflare Pages and Workers
+
+## Privacy
+
+No file uploads, no third-party tracking, no sale of user data. GDPR and CCPA compliant. Full policy at [pulsetier.com/privacy](https://pulsetier.com/privacy).
+
+## Contributing
+
+PulseTier is a closed-source commercial project. Bug reports and feature requests are welcome at [support@pulsetier.com](mailto:support@pulsetier.com).
 
 ## License
 
-Copyright 2025 PulseTier. All rights reserved.
-
-This is proprietary software. Unauthorized copying, modification, distribution, or use is strictly prohibited.
+Copyright © 2025 PulseTier. All rights reserved. Proprietary software; unauthorized copying, modification, or distribution is prohibited.
 
 ## Contact
 
-**Website:** https://pulsetier.com
-
-**Email:** support@pulsetier.com
-
-**LinkedIn:** pulsetier
-
-**Location:** Nairobi, Kenya
-
-## Acknowledgments
-
-Built with modern web technologies and a commitment to user privacy. Special thanks to the open-source community for the tools and libraries that make PulseTier possible.
-
----
-
-Last Updated: January 2025
+[pulsetier.com](https://pulsetier.com) · [support@pulsetier.com](mailto:support@pulsetier.com) · Nairobi, Kenya
