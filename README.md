@@ -1,8 +1,6 @@
 
 # PulseTier
 
-**Professional Productivity Tools. Private by Design.**
-
 PulseTier is a suite of professional-grade browser-based productivity tools designed to simplify file processing while maintaining user privacy.
 
 Built for developers, legal professionals, finance teams, and content creators, PulseTier processes files directly on your device. No unnecessary uploads. No compromise on privacy.
