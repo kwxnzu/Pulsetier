@@ -30,23 +30,6 @@ All supported file-processing operations run locally within your browser using W
 
 ---
 
-## Tool Categories
-
-PulseTier brings together specialized utilities across multiple professional domains.
-
-| Category | Available Tools |
-|---|---|
-| **Developer Tools** | JSON Formatter & Validator, JSON to TypeScript Converter, Regex Tester, Base64 Encoder/Decoder, Code Minifier, SVG Path Optimizer, Cron Expression Generator, API Tester, Git Command Builder, CSV to JSON Converter, Timezone Converter |
-| **PDF Tools** | PDF Merge & Split, PDF Compression, PDF/A Archival Converter, Bates Stamping, Confidential Watermarker, Permission Locker, Bank Statement Parser, Invoice Generator, Expense Report Merger |
-| **Legal & Compliance** | Document Encryption (AES-256), Metadata Scrubber, Contract Comparator, Evidence Photo Enhancement, Privacy Scrubber |
-| **Finance & Operations** | Bulk Certificate Generator, QR Code Batcher, Barcode Label Generator, Payroll Calculator, PO to Invoice Mapper, AI Resume Screener |
-| **Image Tools** | Image Format Converter, Image Compressor, SVG to PNG Converter, Batch Thumbnail Editor, QR Code Generator |
-| **Video Tools** | Video Compressor, Video Trimmer, Social Media Video Resizer, Subtitle Hardcoder, GIF to Video Converter |
-| **Audio Tools** | Audio Transcription with Speaker Detection |
-| **Text Tools** | Word & Character Counter, Secure Password Generator |
-
----
-
 ## Core Philosophy
 
 PulseTier is built around four fundamental principles.
@@ -124,39 +107,6 @@ Full API documentation is available at:
 
 ---
 
-## Current Status
-
-### Platform Information
-
-| Metric | Details |
-|---|---|
-| Platform | PulseTier |
-| Website | [pulsetier.com](https://pulsetier.com) |
-| Launch Date | January 2025 |
-| Development Status | Active Development |
-| Business Model | Commercial Platform |
-
-### Initial Performance
-
-The following metrics represent the platform's first-week performance.
-
-| Metric | Result |
-|---|---:|
-| Unique Visitors | 70 |
-| Page Views | 1,020 |
-| Week-over-Week Growth | 180% |
-| Organic Traffic | 100% |
-| International Reach | US, Canada, Switzerland, UK, Romania |
-
-### Current Development Priorities
-
-- Improving and upgrading 15 existing tools.
-- Developing the API integration platform.
-- Expanding the B2B developer ecosystem.
-- Optimizing the user experience and conversion funnel.
-
----
-
 ## Technology Stack
 
 PulseTier is developed using a modern web technology stack.
@@ -191,7 +141,7 @@ PulseTier is developed using a modern web technology stack.
 | ESLint | Code quality and linting |
 | Prettier | Code formatting |
 | Vercel | Preview deployments |
-| Cloudflare | CDN and edge infrastructure |
+
 
 ---
 
